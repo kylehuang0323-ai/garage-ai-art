@@ -605,6 +605,18 @@ a {
   animation: float 4s ease-in-out infinite;
 }
 
+/* ---- Schedule day header ---- */
+.schedule__day-header {
+  text-align: center;
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.schedule__day-header--day1 { color: #a78bfa; }
+.schedule__day-header--day2 { color: #ec4899; }
+.schedule__day-header--day3 { color: #22d3ee; }
+
 /* ---- Responsive ---- */
 @media (max-width: 640px) {
   .nav__links {
